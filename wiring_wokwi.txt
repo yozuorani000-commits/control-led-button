@@ -1,0 +1,24 @@
+link Project wokwi : https://wokwi.com/projects/481638771058588673
+
+
+###################### Proses Penambahan Repository Git & Github #################################
+
+git init
+
+git config --global user.name "nama username di github"
+
+git config --global user.email "email"
+
+git add .
+
+git status
+
+git commit -m "Commit 1: Add kontrol 1  LED and 1 button"  
+
+git branch -M main
+
+git remote add origin https://github.com/username/control_led_button.git
+
+git push -u origin main
+
+Cek di github

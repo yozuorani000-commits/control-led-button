@@ -1,0 +1,10 @@
+# Arduino generated files
+build/
+*.hex
+*.elf
+*.eep
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
