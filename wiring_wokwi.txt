@@ -1,24 +1,32 @@
-link Project wokwi : https://wokwi.com/projects/481638771058588673
+LINK SIMULASI WOKWI (ESP32):
+1. Commit 1 (1 LED & 1 Button) : https://wokwi.com/projects/481674522031642625
+2. Commit 2 (2 LED & 2 Button) : https://wokwi.com/projects/481674709785583617
+3. Commit 3 (3 LED & 3 Button) : https://wokwi.com/projects/481674778914029569
 
+====================================================
+KONFIGURASI WIRING ESP32 - 3 LED & 3 PUSH BUTTON
+====================================================
 
-###################### Proses Penambahan Repository Git & Github #################################
+1. LED 1 (Merah):
+   - Kaki Anoda (+)  -> Resistor 220 Ohm -> Pin GPIO 18
+   - Kaki Katoda (-) -> Pin GND
 
-git init
+2. LED 2 (Biru):
+   - Kaki Anoda (+)  -> Resistor 220 Ohm -> Pin GPIO 19
+   - Kaki Katoda (-) -> Pin GND
 
-git config --global user.name "nama username di github"
+3. LED 3 (Kuning):
+   - Kaki Anoda (+)  -> Resistor 220 Ohm -> Pin GPIO 21
+   - Kaki Katoda (-) -> Pin GND
 
-git config --global user.email "email"
+4. Push Button 1:
+   - Kaki 1 (1.l)    -> Pin GPIO 4 (Mode INPUT_PULLUP)
+   - Kaki 2 (2.r)    -> Pin GND
 
-git add .
+5. Push Button 2:
+   - Kaki 1 (1.l)    -> Pin GPIO 5 (Mode INPUT_PULLUP)
+   - Kaki 2 (2.r)    -> Pin GND
 
-git status
-
-git commit -m "Commit 1: Add kontrol 1  LED and 1 button"  
-
-git branch -M main
-
-git remote add origin https://github.com/username/control_led_button.git
-
-git push -u origin main
-
-Cek di github
+6. Push Button 3:
+   - Kaki 1 (1.l)    -> Pin GPIO 15 (Mode INPUT_PULLUP)
+   - Kaki 2 (2.r)    -> Pin GND
