@@ -2,8 +2,7 @@
 
 ## Deskripsi
 
-Project Arduino Uno untuk mengontrol
-satu LED menggunakan satu push button.
+Project Arduino Uno untuk mengontrol satu LED menggunakan satu push button. LED akan menyala ketika tombol ditekan dan mati ketika tombol dilepaskan.
 
 ## Hardware
 
@@ -16,20 +15,25 @@ satu LED menggunakan satu push button.
 
 ## Pin Configuration
 
-- LED: D8
-- Button: D2
+| Komponen | Pin Arduino |
+|---|---|
+| LED | D8 |
+| Push Button | D2 |
 
 ## Cara Kerja
 
-Ketika tombol ditekan, LED menyala.
-Ketika tombol dilepas, LED mati.
+1. Arduino membaca kondisi push button.
+2. Ketika tombol ditekan, LED menyala.
+3. Ketika tombol dilepaskan, LED mati.
 
 ## Software
 
 - Arduino IDE
+- Visual Studio Code
 - Git
 - GitHub
+- Wokwi
 
 ## Developer
 
-username github
+**GitHub:** [@yozuorani000-commits](https://github.com/yozuorani000-commits)
